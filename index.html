@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    
+</head>
+<body>
+    <header class="menu">
+        <div class="logo">
+            <a href="#">
+                Gui
+            </a>
+        </div>
+        <div class="menu_items">
+            <a href="#home" class="items active" id="1">Inicio</a>
+            <a href="#about" class="items" id="2">About-Me</a>
+            <a href="#skills" class="items" id="3">Skills</a>
+            <a href="#contact" class="items" id="3">Contact</a>
+
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container_home">
+            <div class="name">
+                <h1>
+                    I am {SEU NOME PRC},
+                </h1>
+                <p>
+                    I am a
+                    <span class="type" style="color: #7289da;"></span>
+                </p>
+            </div>
+
+            <div class="buttons">
+                    <a href="" class="btn__cv">
+                        Download C.V
+                    </a>
+            </div>
+        </div>
+
+       
+    </section>
+
+    <section id="about">
+        <div class="title_sec">
+            <h1>Sobre</h1>
+        </div>
+        <div class="container_about">
+            <div class="mini_biografia">
+                <h1 style="margin-bottom: 10px; font-size: 35px;">
+                    <strong style="color:#7289da;">Quem sou eu?</strong>
+                </h1>
+                <p>
+                    Eu sou o <strong>Guilherme</strong>, simplesmente a pessoa mais linda do planeta. Nasci em 2007, desde entao o planeta me considera o ser humano mais lindo, fui banido de 3 paises, pois todas as meninas era apaixonadas por mim, ate a mulher do bolsonaro.
+                </p>
+            </div>
+
+            <div class="esse_cara_sou_eu">
+                <!-- SUA FOTO -->
+                <img src="./eu.jpg" alt="Sua fTO" class="eu_msm">
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="title_sec">
+            <h1>Habilidades</h1>
+        </div>
+
+        <div class="container_skills">
+            <div class="card_skill">
+                <ion-icon name="brush-outline" class="icon_skill"></ion-icon>
+                <div class="content_card_skill">
+                    <h1>Web Developer</h1>
+                    <p>HTML5, CSS3 e JavaScript</p>
+                </div>
+            </div>
+            <div class="card_skill">
+                <ion-icon name="color-palette-outline" class="icon_skill"></ion-icon>
+                <div class="content_card_skill">
+                    <h1>Designer</h1>
+                    <p>Figma e Photoshop</p>
+                </div>
+               
+            </div>
+            <div class="card_skill">
+                <ion-icon name="code-slash-outline" class="icon_skill"></ion-icon>
+                <div class="content_card_skill">
+                    <h1>Software</h1>
+                    <p>Python, C++, C# e PHP</p>
+                </div>
+               
+            </div>
+        </div>
+
+    </section>    
+
+
+    <section id="skills">
+        <div class="title_sec">
+            <h1>Habilidades</h1>
+        </div>
+
+        <div class="container_about">
+            <div class="mini_biografia">
+                <h1 style="margin-bottom: 10px">
+                    <strong>Minhas habilidades criativas e experiências.</strong>
+                </h1>
+                <p>
+                    Estes são alguns furthur do que acima
+                </p>
+            </div>
+
+            <div class="progress">
+                <div class="progress_card">
+                    <div class="percentage">
+                        <h1>HTML</h1>
+                        <h1>80%</h1>
+                    </div>
+                    <div class="progress_div2"></div>
+                    <div class="progress_div" style="width: 80%;"></div>
+                </div>
+
+                <div class="progress_card">
+                    <div class="percentage">
+                        <h1>CSS</h1>
+                        <h1>60%</h1>
+                    </div>
+                    <div class="progress_div2"></div>
+                    <div class="progress_div" style="width: 60%;"></div>
+                </div>
+
+                <div class="progress_card">
+                    <div class="percentage">
+                        <h1>JS</h1>
+                        <h1>30%</h1>
+                    </div>
+                    <div class="progress_div2"></div>
+                    <div class="progress_div" style="width: 30%;"></div>
+                </div>
+
+                <div class="progress_card">
+                    <div class="percentage">
+                        <h1>PHP</h1>
+                        <h1>2%</h1>
+                    </div>
+                    <div class="progress_div2"></div>
+                    <div class="progress_div" style="width: 2%;"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="title_sec">
+            <h1>Contato</h1>
+        </div>
+        <form action="https://api.staticforms.xyz/submit" class="contato" method="POST">
+           
+            <div class="content_contato">    
+                <input type="name" name="name" class="name_input" placeholder="Nome" required>   
+                <input type="email" name="email" class="email" placeholder="Email" required>
+                <textarea name="message" id="" class="msg" cols="50" placeholder="Assunto" rows="10" required></textarea>
+            </div>
+            <input type="hidden" name="accessKey" value="f6040d39-cf2c-4e0d-b2d9-9a86a5cb34ca">
+            <input type="hidden" name="subject" value="Guilherme Aguiar" />
+            <input type="hidden" name="replyTo" value="@">
+            <input type="hidden" name="redirectTo" value="https://imgui33.github.io/portfolio-v1/">
+
+            <input type="submit" class="btn_enviar">
+
+            <!-- <div class="success">
+            <div class="msg_sucesso">
+                <h1>Sua mensagem foi enviada com sucesso!</h1>
+                <p>Agora é so aguardar minha resposta.</p>
+            </div>
+            <button class="close_ close" onclick="fecharMsg()">
+                <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div> -->
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <h1>
+            Criado por | Todos os direitos reservados. 
+        </h1>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var option = {
+        strings: [
+            "<strong>Web Developer</strong>.",
+            "<strong>Student</strong>."
+        ],
+        typeSpeed: 100,
+        loop: true,
+        smartBackspace: true
+        }
+
+        var typed = new Typed('.type', option)
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
